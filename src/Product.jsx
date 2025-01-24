@@ -6,7 +6,7 @@ const ProductStockStatus = ({ stock }) => {
       {stock > 0 ? (
         <span style={{color:"green"}}>In Stock</span>
       ) : (
-        <span style={{color:"green"}}>Available Next Day</span>
+        <span style={{color:"black"}}>Available Next Day</span>
       )}
     </div>
   );
