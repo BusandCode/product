@@ -15,10 +15,11 @@ const ProductStockStatus = ({ stock }) => {
 // Example usage
 const Product = () => {
   const productStock = 0; // Change this value to test the behavior
+  //Change the value to the value of the item there
 
   return (
-    <div className="p-4">
-      <h2 className="text-xl font-bold">Product Name</h2>
+    <div>
+      <h2>Product Name</h2>
       <ProductStockStatus stock={productStock} />
     </div>
   );
